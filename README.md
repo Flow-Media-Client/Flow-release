@@ -18,24 +18,16 @@
 
 ## ✨ 特性
 
-- **🎬 双服务器支持** —— 同一个 App 同时连接 Jellyfin 和 Emby,多账号自由切换
+- **🎬 Jellyfin/Emby 支持** —— 同一个 App 同时连接 Jellyfin 和 Emby,多账号自由切换
 - **📺 原生 TV 体验** —— 基于 Compose for TV 构建,D-pad 焦点流畅,遥控器友好
 - **⚡ 高性能播放** —— Media3 + FFmpeg 软解 + libass,支持 PGS / ASS 字幕、HDR、多音轨
 - **💬 弹幕支持** —— 兼容 dandanplay 协议,支持多源配置、自动匹配与手动搜索
-- **🏠 智能首页** —— 继续观看、最近添加、下一集,SWR 缓存让冷启动也即开即用
-- **🔍 全局搜索** —— 跨媒体库快速检索影视、剧集、人物
-- **🎨 沉浸式细节页** —— 主色调提取的渐变背景,演职员、相关推荐一站直达
 
 ## 📥 下载安装
 
 到 [Releases](../../releases/latest) 下载最新的 `app-release.apk`,通过以下任一方式安装到 Android TV:
 
-- **ADB**: `adb install app-release.apk`
-- **U 盘**: 拷贝到 U 盘,使用 TV 上的文件管理器安装
-- **网络传输**: Send Files to TV、LocalSend 等工具直接推送
-
 > **系统要求**: Android 8.0 (API 26) 及以上,推荐 Android TV / Google TV 设备。
-> 手机/平板可以装但未做适配,体验会比较糟。
 
 ## 🚀 快速开始
 
@@ -50,7 +42,6 @@
 
 Flow 使用 **licsign** 做离线授权,与 Jellyfin / Emby 登录完全独立:
 
-- **试用** —— 全自动、无感,正常使用不会看到任何授权界面
 - **激活** —— 试用过期后,在授权页输入激活码即可。支持手机扫码,在手机上输入激活码,免去用遥控器敲长串字符
 - **重装恢复** —— 同一台设备重装后会自动恢复授权,无需重新输码
 
@@ -70,12 +61,6 @@ Flow 使用 **licsign** 做离线授权,与 Jellyfin / Emby 登录完全独立:
 ## ❓ FAQ
 
 <details>
-<summary><b>支持手机/平板吗?</b></summary>
-
-技术上能装,但 Flow 是为 TV 大屏 + 遥控器设计的,手机上的触摸交互、布局密度都没有专门优化。不建议作为主力使用。
-</details>
-
-<details>
 <summary><b>支持 Plex / Kodi / 本地文件吗?</b></summary>
 
 目前只支持 Jellyfin 和 Emby。暂无支持其它后端的计划。
@@ -84,7 +69,7 @@ Flow 使用 **licsign** 做离线授权,与 Jellyfin / Emby 登录完全独立:
 <details>
 <summary><b>弹幕从哪里来?需要付费吗?</b></summary>
 
-Flow 内置 dandanplay 兼容协议的客户端,你可以在设置里配置任意符合该协议的弹幕源(包括官方 dandanplay 公共 API、自建源、镜像)。Flow 本身不提供弹幕数据,也不收取任何弹幕相关费用。
+Flow 内置 dandanplay 兼容协议的客户端,你可以在设置里配置任意符合该协议的弹幕源(包括官方 dandanplay 公共 API、自建源、镜像)。Flow 本身不提供弹幕数据。
 </details>
 
 <details>
