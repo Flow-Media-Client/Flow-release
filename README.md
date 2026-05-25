@@ -16,6 +16,10 @@
 
 ---
 
+## 购买地址
+
+[Riri's store](https://pay.ldxp.cn/shop/ririsstore)
+
 ## ✨ 特性
 
 - **🎬 Jellyfin/Emby 支持** —— 同一个 App 同时连接 Jellyfin 和 Emby,多账号自由切换
