@@ -1,6 +1,6 @@
 <div align="center">
 
-![Logo](./assets/flow-logo.png)
+<img src="./assets/flow-logo.png" width="120" height="120" >
 
 # Flow
 
