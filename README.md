@@ -1,5 +1,7 @@
 <div align="center">
 
+![Logo](./assets/flow-logo.png)
+
 # Flow
 
 **为 Android TV 打造的 Jellyfin / Emby 客户端**
