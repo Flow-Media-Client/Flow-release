@@ -10,7 +10,7 @@
 [![Downloads](https://img.shields.io/github/downloads/Flow-Media-Client/Flow-release/total?style=flat-square)](../../releases)
 [![Discussions](https://img.shields.io/github/discussions/Flow-Media-Client/Flow-release?style=flat-square)](../../discussions)
 
-[下载](../../releases/latest) · [讨论区](../../discussions) · [反馈 Bug](../../issues) · [激活码售后](https://github.com/Flow-Media-Client/Flow-After-sales/issues/new/choose)
+[下载](../../releases/latest) · [讨论区](../../discussions) · [反馈 Bug](../../issues) · [激活码售后](https://github.com/Flow-Media-Client/Flow-After-sales/issues/new/choose) · [tg发布频道](https://t.me/finflowchannel)
 
 </div>
 
