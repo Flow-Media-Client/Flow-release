@@ -1,0 +1,107 @@
+name: 播放问题
+description: 反馈播放失败、黑屏、卡顿、字幕、音轨、HDR 或杜比相关问题
+title: "[Playback] "
+labels: ["bug", "playback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        播放问题和设备、服务器、媒体编码强相关。请尽量填写完整，否则很难判断原因。
+  - type: input
+    id: app-version
+    attributes:
+      label: Flow 版本
+      placeholder: "例如: 1.2.3"
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 设备型号
+      placeholder: "例如: NVIDIA Shield TV Pro / 小米盒子 / Chromecast with Google TV"
+    validations:
+      required: true
+  - type: input
+    id: android-version
+    attributes:
+      label: Android / Android TV 版本
+      placeholder: "例如: Android TV 12"
+    validations:
+      required: true
+  - type: dropdown
+    id: server-type
+    attributes:
+      label: 媒体服务器
+      options:
+        - Jellyfin
+        - Emby
+    validations:
+      required: true
+  - type: input
+    id: server-version
+    attributes:
+      label: 服务器版本
+      placeholder: "例如: Jellyfin 10.10.7 / Emby 4.8.11.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: 问题类型
+      options:
+        - 无法播放 / 播放失败
+        - 黑屏 / 有声无画
+        - 卡顿 / 掉帧 / 缓冲
+        - 字幕问题
+        - 音轨问题
+        - HDR / 杜比问题
+        - 片头片尾跳过问题
+        - 其他播放问题
+    validations:
+      required: true
+  - type: textarea
+    id: media-info
+    attributes:
+      label: 媒体信息
+      description: 请填写视频编码、分辨率、封装、音频、字幕等信息；可从 Jellyfin / Emby 媒体详情复制。
+      placeholder: |
+        视频: HEVC / H.264, 1080p / 4K, HDR / SDR
+        音频: AAC / AC3 / EAC3 / TrueHD / DTS
+        字幕: PGS / ASS / SRT / 内封 / 外挂
+        封装: MKV / MP4
+    validations:
+      required: true
+  - type: textarea
+    id: network
+    attributes:
+      label: 网络与播放环境
+      placeholder: |
+        局域网 / 公网 / 反代 / HTTPS:
+        有线 / Wi-Fi:
+        是否开启转码:
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: 具体表现
+      placeholder: "请描述播放到哪一步出问题、是否每次必现、其他播放器是否正常。"
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: 截图 / 录屏 / 日志
+      description: 请先移除服务器地址、Token、账号等敏感信息。
+      placeholder: "可直接粘贴或拖拽文件到这里。"
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已确认使用的是最新版 Flow。
+          required: true
+        - label: 我已搜索现有 Issues，确认没有重复反馈。
+          required: true
+        - label: 我已尽量提供媒体信息和播放环境信息。
+          required: true

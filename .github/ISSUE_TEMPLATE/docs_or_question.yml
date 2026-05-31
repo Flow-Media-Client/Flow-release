@@ -1,0 +1,41 @@
+name: 文档问题
+description: 反馈 README、Release Notes 或下载说明中的错误和缺失
+title: "[Docs] "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        普通使用提问请优先发到 Discussions；这里主要收集仓库文档、说明和链接问题。
+  - type: dropdown
+    id: docs-area
+    attributes:
+      label: 文档范围
+      options:
+        - README
+        - Release Notes
+        - 下载 / 安装说明
+        - FAQ
+        - 链接或跳转
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: 问题描述
+      placeholder: "哪里不清楚、过期、错误或缺失？"
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: 建议改法
+      placeholder: "如果你有建议文案或截图，可以放在这里。"
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已确认这不是激活码、订单或授权恢复相关问题。
+          required: true
