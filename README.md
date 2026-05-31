@@ -6,8 +6,6 @@
 
 **为 Android TV 打造的 Jellyfin / Emby 客户端**
 
-在客厅大屏上,把自己的媒体库刷得顺手、好看、够快。
-
 [![Latest Release](https://img.shields.io/github/v/release/Flow-Media-Client/Flow-release?style=flat-square)](../../releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/Flow-Media-Client/Flow-release/total?style=flat-square)](../../releases)
 [![Discussions](https://img.shields.io/github/discussions/Flow-Media-Client/Flow-release?style=flat-square)](../../discussions)
@@ -20,10 +18,11 @@
 
 ## ✨ 特性
 
-- **🎬 Emby/Jellyfin 支持** —— 同一个 App 同时连接 Jellyfin 和 Emby,多账号自由切换
-- **📺 原生 TV 体验** —— 基于 Compose for TV 构建,D-pad 焦点流畅,遥控器友好
-- **⚡ 高性能播放** —— Media3 + FFmpeg 软解 + libass,支持 PGS / ASS 字幕、HDR、多音轨
-- **💬 弹幕支持** —— 兼容 dandanplay 协议,支持多源配置、自动匹配与手动搜索
+- **🎬 Emby/Jellyfin 支持** —— 同一个 App 同时连接 Jellyfin 和 Emby，多账号自由切换
+- **📺 原生 TV 体验** —— 基于 Compose for TV 构建，D-pad 焦点流畅，遥控器友好，焦点控制符合直觉
+- **⚡ 高性能播放** —— 使用 Media3， 支持 PGS / ASS 字幕、HDR、杜比（取决于设备）、多音轨。特效字幕支持优秀
+- **💬 弹幕支持** —— 内置 dandanplay 弹幕源，兼容 dandanplay 协议，支持多源配置、自动匹配与手动搜索
+-**跳过片头片尾** -- 内置服务器、introdb、theintrodb 三个片头片尾数据源，精准跳过片头片尾
 
 ## 📥 下载安装
 
