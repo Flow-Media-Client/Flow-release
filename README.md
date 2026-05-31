@@ -22,7 +22,42 @@
 - **📺 原生 TV 体验** —— 基于 Compose for TV 构建，D-pad 焦点流畅，遥控器友好，焦点控制符合直觉
 - **⚡ 高性能播放** —— 使用 Media3， 支持 PGS / ASS 字幕、HDR、杜比（取决于设备）、多音轨。特效字幕支持优秀
 - **💬 弹幕支持** —— 内置 dandanplay 弹幕源，兼容 dandanplay 协议，支持多源配置、自动匹配与手动搜索
--**跳过片头片尾** -- 内置服务器、introdb、theintrodb 三个片头片尾数据源，精准跳过片头片尾
+- **⏭️ 跳过片头片尾** —— 内置服务器、introdb、theintrodb 三个片头片尾数据源，精准跳过片头片尾
+
+## 📸 应用截图
+
+<p align="center">
+  <img src="./assets/Screenshot_20260531_172835.png" alt="Flow 首页推荐" width="100%">
+  <br>
+  <sub>首页推荐</sub>
+</p>
+
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img src="./assets/Screenshot_20260531_172908.png" alt="继续观看与媒体列表" width="100%">
+      <br>
+      <sub>继续观看与媒体列表</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="./assets/Screenshot_20260531_172957.png" alt="媒体详情页" width="100%">
+      <br>
+      <sub>媒体详情页</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center">
+      <img src="./assets/Screenshot_20260531_173017.png" alt="剧集与演职员信息" width="100%">
+      <br>
+      <sub>剧集与演职员信息</sub>
+    </td>
+    <td width="50%" align="center">
+      <img src="./assets/Screenshot_20260531_173157.png" alt="人物详情页" width="100%">
+      <br>
+      <sub>人物详情页</sub>
+    </td>
+  </tr>
+</table>
 
 ## 📥 下载安装
 
