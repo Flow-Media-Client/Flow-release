@@ -59,6 +59,14 @@
   </tr>
 </table>
 
+## 🔑 关于授权
+
+- **激活** —— 试用过期后,在授权页输入激活码即可。支持手机扫码,在手机上输入激活码,免去用遥控器敲长串字符
+- **重装恢复** —— 同一台设备重装后会自动恢复授权,无需重新输码
+
+> 🛒 **购买激活码**:<https://pay.ldxp.cn/shop/ririsstore>(仅此一个官方渠道，一个激活码支持两个设备，如有特殊需求可以 TG 频道私聊)
+> 🆘 **激活码 / 订单 / 恢复相关售后**:[Flow-After-sales](https://github.com/Flow-Media-Client/Flow-After-sales/issues/new/choose)
+
 ## 📥 下载安装
 
 到 [Releases](../../releases/latest) 下载最新的 `app-release.apk`
@@ -74,13 +82,6 @@
    - **手动添加**: 输入服务器地址(如 `http://192.168.1.10:8096`)
 4. 登录账号即可开始
 
-## 🔑 关于授权
-
-- **激活** —— 试用过期后,在授权页输入激活码即可。支持手机扫码,在手机上输入激活码,免去用遥控器敲长串字符
-- **重装恢复** —— 同一台设备重装后会自动恢复授权,无需重新输码
-
-> 🛒 **购买激活码**:<https://pay.ldxp.cn/shop/ririsstore>(仅此一个官方渠道)
-> 🆘 **激活码 / 订单 / 恢复相关售后**:[Flow-After-sales](https://github.com/Flow-Media-Client/Flow-After-sales/issues/new/choose)
 
 ## 🐛 反馈与交流
 
