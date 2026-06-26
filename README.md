@@ -71,7 +71,7 @@
 
 到 [Releases](../../releases/latest) 下载最新的 `app-release.apk`
 
-> **系统要求**: Android 8.0 (API 26) 及以上,推荐 Android TV / Google TV 设备。
+> **系统要求**: Android 7.0 (API 24) 及以上,推荐 Android TV / Google TV 设备。
 
 ## 🚀 快速开始
 
