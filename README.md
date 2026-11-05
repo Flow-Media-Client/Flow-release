@@ -67,6 +67,8 @@
 > 🛒 **购买激活码**:<https://pay.ldxp.cn/shop/ririsstore>(仅此一个官方渠道，一个激活码支持两个设备，如有特殊需求可以 TG 频道私聊)
 > 🆘 **激活码 / 订单 / 恢复相关售后**:[Flow-After-sales](https://github.com/Flow-Media-Client/Flow-After-sales/issues/new/choose)
 
+购买 24 小时内可以在链动小铺订单处自行提交售后，我这边会尽快处理
+
 ## 📥 下载安装
 
 到 [Releases](../../releases/latest) 下载最新的 `app-release.apk`
